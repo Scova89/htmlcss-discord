@@ -5,9 +5,15 @@
     box-sizing: border-box;
 }
 
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 /* header */
 header{
     height: 80px;
+    background-color: rgba(0, 110, 255, 0.226);
+    line-height: 80px;
 }
 
 .container{
@@ -15,6 +21,66 @@ header{
     margin: 0 auto;
     max-width: 1170px;
 }
+
+/* row bar */
+.row::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* bnt */
+
+.btn{
+    background-color: white;
+    color: black;
+    padding: 8px 14px;
+    font-size: 14px;
+    border-radius: 20px;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+#logo, #accedi{
+    float: left;
+    width: 25%;
+}
+
+#logo img{
+    vertical-align: middle;
+}
+
+nav{
+    float: left;
+    width: 50%;
+    text-align: center;
+    line-height: 80px;
+}
+
+nav li{
+    list-style: none;
+    display: inline-block;
+}
+
+nav li a{
+    margin: 0px 10px;
+    text-decoration: none;
+    color: white;
+    font-size: 11pt;
+    font-weight: bold;
+}
+
+#accedi{
+    text-align: right;
+}
+
+
 
 #jumbotron{
     height: 500px;
@@ -24,14 +90,30 @@ header{
 
 /* **** debug **** */
 
-.debug header{
+/* .debug header{
     background-color: blueviolet;
-}
+} */
 
 .debug .container{
     height: 100px;
-    background-color: blanchedalmond;
+    border: 1px solid black;
 }
+
+/* .debug #logo{
+    height: 80px;
+    background-color: darkblue;
+}
+
+.debug nav{
+    height: 80px;
+    background-color: rgb(63, 139, 0);
+}
+
+.debug #accedi{
+    height: 80px;
+    background-color: darkblue;
+} */
+
 .debug main{
     height: 700px;
     background-color: chartreuse;
