@@ -133,6 +133,37 @@ nav li a{
     color: rgb(24, 24, 24);
 }
 
+/* main */
+
+.paragrafo{
+    margin-top: 40px;
+}
+
+.paragrafo img{
+    float: left;
+    width: 50%; 
+}
+
+.paragrafo .textparagrafo{
+    float: left;
+    width: 50%;
+    padding: 0px 130px;
+    margin-top: 33px;
+    color: rgb(24, 24, 24);
+}
+
+.paragrafo h2{
+    display: inline-block;
+    font-size: 30px;
+    margin-bottom: 8px;
+}
+
+.paragrafo p{
+    display: inline-block;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
 
 
 /* **** debug **** */
@@ -161,10 +192,10 @@ nav li a{
     background-color: darkblue;
 } */
 
-.debug main{
+/* .debug main{
     height: 700px;
     background-color: chartreuse;
-}
+} */
 
 /* .debug #jumbotron{
     background-color: darkgoldenrod;
