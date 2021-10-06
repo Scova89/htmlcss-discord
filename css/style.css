@@ -12,7 +12,7 @@ body{
 /* header */
 header{
     height: 80px;
-    background-color: rgba(0, 110, 255, 0.226);
+    background-color: rgb(13, 94, 243);
     line-height: 80px;
 }
 
@@ -32,11 +32,24 @@ header{
 /* bnt */
 
 .btn{
-    background-color: white;
-    color: black;
     padding: 8px 14px;
     font-size: 14px;
-    border-radius: 20px;
+    border-radius: 2em;
+}
+
+.big{
+    font-size: 15px;
+    padding: 15px;
+}
+
+.bianco{
+    background-color: white;
+    color: rgb(24, 24, 24);
+}
+
+.nero{
+    background-color: rgb(24, 24, 24);
+    color: white;
 }
 
 a{
@@ -81,9 +94,43 @@ nav li a{
 }
 
 
+/* jumbotron */
 
 #jumbotron{
     height: 500px;
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    text-align: center;
+    position: relative;
+}
+
+#jumbotron .jumbotext{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -60%);
+}
+
+.jumbotext h1{
+    font-size: 50px;
+    color: white;
+}
+
+.jumbotext p{
+    font-size: 18px;
+    color: white;
+    line-height: 1.7;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.jumbotext a{
+    margin: 0px 15px;
+}
+
+.jumbotext .btn i{
+    margin-right: 5px;
+    color: rgb(24, 24, 24);
 }
 
 
@@ -95,7 +142,7 @@ nav li a{
 } */
 
 .debug .container{
-    height: 100px;
+    height: 500px;
     border: 1px solid black;
 }
 
@@ -119,9 +166,9 @@ nav li a{
     background-color: chartreuse;
 }
 
-.debug #jumbotron{
+/* .debug #jumbotron{
     background-color: darkgoldenrod;
-}
+} */
 
 .debug footer{
     height: 500px;
