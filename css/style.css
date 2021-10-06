@@ -4,3 +4,44 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* header */
+header{
+    height: 80px;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+    max-width: 1170px;
+}
+
+#jumbotron{
+    height: 500px;
+}
+
+
+
+/* **** debug **** */
+
+.debug header{
+    background-color: blueviolet;
+}
+
+.debug .container{
+    height: 100px;
+    background-color: blanchedalmond;
+}
+.debug main{
+    height: 700px;
+    background-color: chartreuse;
+}
+
+.debug #jumbotron{
+    background-color: darkgoldenrod;
+}
+
+.debug footer{
+    height: 500px;
+    background-color: dodgerblue;
+}
