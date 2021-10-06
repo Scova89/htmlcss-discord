@@ -135,35 +135,61 @@ nav li a{
 
 /* main */
 
-.paragrafo{
-    margin-top: 40px;
-}
 
-.paragrafo img{
-    float: left;
-    width: 50%; 
-}
 
-.paragrafo .textparagrafo{
+.imgsinistra img{
     float: left;
     width: 50%;
-    padding: 0px 130px;
-    margin-top: 33px;
-    color: rgb(24, 24, 24);
+     
 }
 
-.paragrafo h2{
+.textparagrafo-destra{
+    float: right;
+    width: 50%;
+    padding-left: 200px;
+    margin-top: 33px;
+    color: rgb(24, 24, 24);
+    
+}
+
+.imgdestra img{
+    float: right;
+    width: 50%;
+   
+}
+
+.textparagrafo-sinistra{
+    float: left;
+    width: 50%;
+    padding-right: 200px;
+    margin-top: 25px;
+    color: rgb(24, 24, 24);
+    
+}
+
+.textparagrafo-sinistra h2{
     display: inline-block;
     font-size: 30px;
     margin-bottom: 8px;
 }
 
-.paragrafo p{
+.textparagrafo-sinistra p{
     display: inline-block;
     font-size: 14px;
     line-height: 1.6;
 }
 
+.textparagrafo-destra h2{
+    display: inline-block;
+    font-size: 30px;
+    margin-bottom: 8px;
+}
+
+.textparagrafo-destra p{
+    display: inline-block;
+    font-size: 14px;
+    line-height: 1.6;
+}
 
 
 /* **** debug **** */
@@ -172,10 +198,10 @@ nav li a{
     background-color: blueviolet;
 } */
 
-.debug .container{
+/* .debug .container{
     height: 500px;
     border: 1px solid black;
-}
+} */
 
 /* .debug #logo{
     height: 80px;
@@ -201,7 +227,8 @@ nav li a{
     background-color: darkgoldenrod;
 } */
 
-.debug footer{
+
+/* .debug footer{
     height: 500px;
     background-color: dodgerblue;
-}
+} */
